@@ -1,4 +1,5 @@
 package edu.pcc.cis.helloworld;
+import java.util.Date;
 
 /**
  * A quick test
@@ -7,8 +8,9 @@ package edu.pcc.cis.helloworld;
  */
 
 public class helloworld {
-    public void TestClass()
-    {
-        System.out.println("test");
+    public static void main(String[] args){
+        System.out.println("hi");
+        System.out.println(new Date());
+
     }
 }
